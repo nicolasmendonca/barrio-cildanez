@@ -18,21 +18,21 @@
 </script>
 
 <main class="relative">
-	<div class="parallax sticky top-[calc(-100vh+200px)]">
+	<div class="parallax">
 		<div class="w-full h-full bg-black/50" bind:this={parallaxContent}>
 			<div class="flex flex-col items-center justify-center w-full h-full">
 				<h1
-					class="sticky pt-4 top-0 text-white text-4xl drop-shadow text-balance w-[650px] text-center leading-loose"
+					class="sticky pt-4 top-0 drop-shadow text-balance w-[650px] text-center leading-loose"
 				>
-					<span class="text-yellow-400 font-extrabold">Intervención Estructural</span>
-					<span class="font-serif text-6xl font-semibold">Barrio Cildañez</span>
+					<div class="text-yellow-400 font-extrabold text-xl md:text-4xl">Intervención Estructural</div>
+					<div class="text-white font-serif font-semibold text-xl md:text-6xl">Barrio Cildañez</div>
 				</h1>
 			</div>
 		</div>
 	</div>
 
-	<div class="max-w-screen-lg mx-auto my-60 flex items-start gap-24">
-		<div class="space-y-4 w-1/2">
+	<div class="max-w-screen-lg mx-auto my-32 flex flex-col md:flex-row items-start gap-24 mx-8">
+		<div class="space-y-4 md:w-1/2">
 			<p>
 				¡Bienvenidos al sitio web de la propuesta de intervención VÍNCULO ENTRE LA CIUDAD FORMAL E
 				INFORMAL! En este espacio encontrarás información detallada sobre cómo se busca mejorar el
@@ -55,7 +55,7 @@
 				proyecto a través de observatorios e indicadores de seguimiento.
 			</p>
 		</div>
-		<div class="space-y-4 w-1/2">
+		<div class="space-y-4 md:w-1/2">
 			<p>
 				La propuesta involucra a distintos actores sociales, entre ellos la Dirección General de
 				Regeneración Urbana Estatal/Gubernamental, empresas de publicidad y la Secretaría de Obras
